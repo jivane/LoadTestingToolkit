@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="MyCorp - Full" Description="" Owner="" storage="c:\sources\loadtestingvse\stresstest_lcorp_ww\stresstest_lcorp_ww\loadtest\mycorp - full.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Corp 30min" Id="91356d1a-de48-45f9-a746-8c6a21691c45" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="MyCorp - Full" Description="" Owner="" storage="c:\sources\loadtestingtoolkit\stresstest_lcorp_ww\stresstest_lcorp_ww\loadtest\mycorp - full.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Corp 30min" Id="91356d1a-de48-45f9-a746-8c6a21691c45" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
     <Scenario Name="Catalog pages Browsing" DelayBetweenIterations="1" PercentNewUsers="100" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="false" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
-      <LoadProfile Pattern="Step" InitialUsers="10" MaxUsers="200" StepUsers="50" StepDuration="120" StepRampTime="60" />
+      <LoadProfile Pattern="Step" InitialUsers="10" MaxUsers="11" StepUsers="50" StepDuration="120" StepRampTime="60" />
       <TestMix>
         <TestProfile Name="Brand" Path="..\webtests\brand.webtest" Id="a53f7fb4-df6e-4d4b-89a5-2bbb00c97027" Percentage="25" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
         <TestProfile Name="About" Path="..\webtests\about.webtest" Id="f124de01-adcd-4ebb-9d4a-d65596494a48" Percentage="25" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

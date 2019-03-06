@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="MyCorp - Home" Description="" Owner="" storage="c:\sources\loadtestingvse\stresstest_lcorp_ww\stresstest_lcorp_ww\loadtest\mycorp - home.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="L'Oréal Corp 30min" Id="46849b9e-9a50-4391-bcb6-945cb2707165" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="MyCorp - Home" Description="" Owner="" storage="c:\sources\loadtestingtoolkit\stresstest_lcorp_ww\stresstest_lcorp_ww\loadtest\mycorp - home.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="L'Oréal Corp 30min" Id="46849b9e-9a50-4391-bcb6-945cb2707165" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
     <Scenario Name="Home" DelayBetweenIterations="1" PercentNewUsers="100" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
-      <LoadProfile Pattern="Step" InitialUsers="10" MaxUsers="400" StepUsers="10" StepDuration="10" StepRampTime="0" />
+      <LoadProfile Pattern="Step" InitialUsers="10" MaxUsers="11" StepUsers="10" StepDuration="10" StepRampTime="0" />
       <TestMix>
         <TestProfile Name="Home" Path="..\webtests\home.webtest" Id="69b89ea4-e63c-401c-a905-2a8e7f6aabff" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </TestMix>
